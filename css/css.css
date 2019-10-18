@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    background: black;
+    padding-top: 3%;
+    display: flex;
+    height: 100vh;
+    
+}
+
+.esquina{
+    height: 100%;
+    width: 30%;
+}
+
+.cuerpo{
+    padding-top: 3%;
+    padding-left: 3%;
+    top: 15px;
+    background-color: #ece6e0;
+    border-radius: 10px 10px 20% 10px;
+    height: 90%;
+    width: 26%;
+    padding-bottom: 5%;
+    
+}
+
+.borde_pantalla{
+    display: flex;
+    justify-content: space-around;
+    padding-top:25px;
+    height: 45%;
+    width: 90%;
+    background-color: #756b6f;
+    border-radius: 10px 10px 20% 10px;
+    
+}
+.pantalla{
+    margin-right: 50px;
+    display: flex;
+    height: 85%;
+    width: 100%;
+  
+}
+.pantalla img{
+    height: auto;
+    width: 180px;
+
+}
+.cuerpo p{
+    color: rgb(50, 50, 207);
+}
+.botoneria{
+    flex-direction: inherit;
+    justify-content: space-between;
+    display: flex;
+    background-color:#ece6e0;
+    height: 40%;
+    width: 83%;
+    padding-bottom: 5%;
+   
+}
+
+.B{
+   
+    flex-direction: row;
+    margin-top: 30%;
+    background-color: #AC0060;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px #666;
+}
+.A{
+    
+    margin-top: 20%;
+    background-color: #AC0060;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px #666;
+}
+#mover{
+    padding-bottom: 10%;
+}
+#derecha{
+    padding-right: 50%;
+}
+.cruz{
+    margin-top: 30px;
+    height: 80px;
+    width: 80px;
+    transform: rotate(-45deg);
+    justify-content: flex-end;
+    rotate: x;
+    filter: drop-shadow(5px 5px 10px #444);
+}
+.boton_start{
+    margin-top: auto;
+    margin-left: 10px;
+    background: #C0C3C4;
+    border: 1px;
+    height: 10px;
+    width: 30px;
+    border-radius: 30%;
+    transform: rotate(-30deg);
+    box-shadow: 2px 2px 10px #666;
+    
+   
+}
+#start{
+    
+    margin-right: 20px;
+}
+.boton_start p{
+    color:#C0C3C4;
+ }
+ #batery{
+     margin: auto;
+     bottom: 15px;
+     right: 20px;
+     position: relative;
+     height: 7px;
+     width: 7px;
+     border-radius: 50%;
+     background: red;
+     box-shadow: 1px 1px 5px 1px rgba(245,8,39,1);
+     
+ }
+ .borde_pantalla p{
+     color:white;
+    margin: auto;
+    right: 35px;
+    font-size: 7px;
+ }
